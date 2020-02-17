@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./target/hello-world /tmp/
+ENTRYPOINT ["/tmp/hello-world"]
